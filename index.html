@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>AmplitudeJS Single Song Example</title>
-
-    <!-- Include font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
-
-    <!-- Include Amplitude JS Visualizations -->
-    <script type="text/javascript" src="https://521dimensions.com/img/open-source/amplitudejs/visualizations/michaelbromley.js"></script>
-
-		<!-- Include Style Sheet -->
-    <link rel="stylesheet" type="text/css" href="css/app.css"/>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Visualization Player</title>
+  <link rel="stylesheet" href="./style.css">
+<title>AmplitudeJS Single Song Example</title>
+ <!-- Include font -->
+<link href="https://fonts.googleapis.com/css?family=Lato:400,400i" rel="stylesheet">
+<!-- Include Amplitude JS Visualizations -->
+<script type="text/javascript" src="https://521dimensions.com/img/open-source/amplitudejs/visualizations/michaelbromley.js"></script>
+<!-- Include Style Sheet -->
+<link rel="stylesheet" type="text/css" href="css/app.css"/>
   </head>
   <body>
     <div id="visualizations-player">
@@ -201,11 +201,10 @@
         </linearGradient>
       </defs>
     </svg>
-    <!--
-      Include UX functions JS
+    <!-- Include UX functions JS
+ NOTE: These are for handling things outside of the scope of AmplitudeJS-->
+<script type="text/javascript" src="js/functions.js"></script>
+  <script src='https://cdn.jsdelivr.net/npm/amplitudejs@latest/dist/amplitude.min.js'></script><script  src="./script.js"></script>
 
-      NOTE: These are for handling things outside of the scope of AmplitudeJS
-    -->
-    <script type="text/javascript" src="js/functions.js"></script>
-  </body>
+</body>
 </html>
